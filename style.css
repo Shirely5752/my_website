@@ -1,0 +1,53 @@
+/* 设置全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* 顶部导航栏 */
+header {
+    background: #32CD32;
+    /* 粉色背景 */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* 各个部分的样式 */
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+/* 视频部分样式 */
+video {
+    width: 100%;
+    max-width: 600px;
+}
